@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"build" : "npx eleventy",
-	"start" : "npx eleventy --serve",
+    "build": "npx eleventy",
+    "start": "npx eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "common-tags": "^1.8.2"
   }
 }

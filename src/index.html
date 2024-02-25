@@ -3,5 +3,9 @@ layout: layouts/base.html
 title: Energiewende Palingen
 ---
 <div>
-	<a href="/projectsketch/">Projekt Skizze</a>
+	<div class="row row-cols-3">
+		{%for page in pages %}
+			{% Card title=page.title, src=page.src, description=page.description, link=page.link, linkText=page.linkText%}
+		{%endfor%}
+	</div>
 </div>

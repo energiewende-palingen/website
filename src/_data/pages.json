@@ -1,0 +1,23 @@
+[
+	{
+		"title" : "Dorfumfrage",
+		"src" : "/assets/images/sketch.jpg",
+		"description" : "Dorf Umfrage Beschreibung",
+		"link" : "/projectsketch", 
+		"linkText" : "Dorf Umfrage"
+	},
+	{
+		"title" : "Projekt Skizze",
+		"src" : "/assets/images/sketch.jpg",
+		"description" : "Projekt Skizze Beschreibung",
+		"link" : "/projectsketch", 
+		"linkText" : "Projekt Skizze"
+	},
+	{
+		"title" : "Gesellschafts Entwicklung",
+		"src" : "/assets/images/sketch.jpg",
+		"description" : "Gesellschafts Entwicklung",
+		"link" : "/projectsketch", 
+		"linkText" : "Gesellschaft"
+	}	
+]
