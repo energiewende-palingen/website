@@ -11,7 +11,8 @@
 				"yellow"
 			]	
 		}],
-		"type" : "pie"
+		"type" : "pie",
+		"description" : "Die Teilnahme zeigt..."
  	},	
   	{
 		"title" : "Stromverbrauch",
@@ -23,7 +24,8 @@
 			"borderWidth": 1,
 			"data": [65, 59, 80, 81, 56, 55, 40]
 		}],
-		"type":"bar"
+		"type":"bar",
+		"description" : "Der Stromverbrauch zeigt..."
   	},
 	{
 		"title" : "Wärme",	
@@ -35,6 +37,7 @@
 			"borderWidth": 1,
 			"data": [65, 59, 80, 81, 56, 55, 40]
 		}],
-		"type" : "bar"
+		"type" : "bar",
+		"description" : "Der Wärme verbrauch zeigt..."
   	}
 ]

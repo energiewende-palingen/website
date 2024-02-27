@@ -1,15 +1,21 @@
 const Card = require('./src/_includes/components/card');
+const ChartComponent = require('./src/_includes/components/chart');
 
 module.exports = function(eleventyConfig){
 	eleventyConfig.addPassthroughCopy("src/assets/");
 	eleventyConfig.addPassthroughCopy("src/css/");
+	eleventyConfig.addPassthroughCopy("src/_data/");
+	
 	eleventyConfig.addWatchTarget("src/css");
 	eleventyConfig.addWatchTarget("src/assets");
+	eleventyConfig.addWatchTarget("src/_data");
+	
 	
 	eleventyConfig.addShortcode("Card", Card);
+	eleventyConfig.addShortcode("Chart", ChartComponent);
 	// create a custom filtered collection that only matches a specific tag in `tags`
-	eleventyConfig.addCollection("page_preview", function(collectionApi) {
-		return collectionApi.getFilteredByTag("page_preview");
+	eleventyConfig.addCollection("pages", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("src/pages/**/*.md");
 	});
 	
 	return {
