@@ -4,3 +4,16 @@ body{
 h1{
 	color: #e8494a;
 }
+.headerImage{
+	
+	display: block;
+	max-width:230px;
+	max-height:200px;
+	width: auto;
+	height: auto;
+	
+}
+
+.headline{
+	margin: auto;
+}

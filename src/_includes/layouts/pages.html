@@ -1,0 +1,13 @@
+{% extends "layouts/base.html" %}
+
+{% block head %}
+	<link rel="stylesheet" href="/css/pages.css" />
+{% endblock %}
+
+{% block content %}
+	<article class="page_content">
+		{{ content | safe }}
+	</article>
+{% endblock %}
+
+

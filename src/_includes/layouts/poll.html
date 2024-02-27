@@ -1,0 +1,34 @@
+{% extends "layouts/base.html" %}
+
+{% block head %}
+	<link rel="stylesheet" href="/css/pages.css" />
+	<!-- Chart.js CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+{% endblock %}
+
+
+{% block content %}			
+	{% for chart in charts %}
+		<h1>{{chart.title}}</h1>
+		<div class="container mt-5">
+			<div class="row chart-row">
+				<!-- First Row -->
+				<div class="col-lg-6">
+					<div class="chart-container">
+						<canvas id={{chart.title}}></canvas>
+					</div>
+				</div>
+			<div class="col-lg-6">
+				<div class="form-group">
+					<div> 
+						{{chart.description}}
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	{% endfor %}
+	<script src="/scripts/chart.js"></script>
+{% endblock %}
+
+

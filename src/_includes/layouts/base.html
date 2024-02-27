@@ -2,10 +2,17 @@
 <html>
 <head>
 	{% include "basehead.html" %}
+	{% block head %} 
+	{% endblock %}
 </head>
-	{% include "baseHeader.html" %}
+	
 <body>
 	{% include "navbar.html"%}
-	{{content | safe }}
+	{% include "baseHeader.html" %}
+	
+	{% block content %}
+		{{ content | safe }}
+	{% endblock %}
+	
 </body>
 </html>

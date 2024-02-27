@@ -4,8 +4,8 @@ title: Energiewende Palingen
 ---
 <div>
 	<div class="row row-cols-3">
-		{%for page in pages %}
-			{% Card title=page.title, src=page.src, description=page.description, link=page.link, linkText=page.linkText%}
+		{%for page in collections.pages %}
+			{% Card title=page.data.title, src=page.data.src, description=page.data.description, link=page.url, linkText=page.data.title%}
 		{%endfor%}
 	</div>
 </div>
