@@ -4,12 +4,11 @@ const ChartComponent = require('./src/_includes/components/chart');
 module.exports = function(eleventyConfig){
 	eleventyConfig.addPassthroughCopy("src/assets/");
 	eleventyConfig.addPassthroughCopy("src/css/");
-	eleventyConfig.addPassthroughCopy("src/_data/");
+	eleventyConfig.addPassthroughCopy("src/scripts/");
 	
+	eleventyConfig.addWatchTarget("src/scripts/");
 	eleventyConfig.addWatchTarget("src/css");
 	eleventyConfig.addWatchTarget("src/assets");
-	eleventyConfig.addWatchTarget("src/_data");
-	
 	
 	eleventyConfig.addShortcode("Card", Card);
 	eleventyConfig.addShortcode("Chart", ChartComponent);

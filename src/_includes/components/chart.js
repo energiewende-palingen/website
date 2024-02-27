@@ -9,13 +9,15 @@ function ChartComponent(data){
 	  };
 	
 	ctx = document.getElementById("${data.title}").getContext('2d');
-	new Chart(ctx, {
+	var chart = new Chart(ctx, {
 		type: "${data.type}",
 		data: ${JSON.stringify(data)},
-		options: pieChartOptions
-	})
+		options: pieChartOptions,
+	});
 	</script>
 	`;
+
+	
 }
 
 module.exports = ChartComponent;

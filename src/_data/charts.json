@@ -1,18 +1,22 @@
 [
 	{
 		"title" : "Teilnahme",
-		"labels": ["Red", "Blue", "Yellow"],
+		"labels": ["Interesse", "kein Interesse"],
 		"datasets": [{
 			"label": "My First Dataset",
-			"data": [12, 19, 3],
+			"data": [79, 21],
 			"backgroundColor": [
-				"red",
-				"blue",
-				"yellow"
+				"#ED7D31",
+				"#FFC000"
 			]	
 		}],
 		"type" : "pie",
-		"description" : "Die Teilnahme zeigt..."
+		"listDescription:" : [
+			"Interviews: rund 100 Haushalte",
+			"Mehrfamilienhäuser mit zentraler Heizung/Strom gelten als 1 Haushalt",
+			"Entspricht ca 300 Haushalten"
+		],
+		"description" : "Test"
  	},	
   	{
 		"title" : "Stromverbrauch",
@@ -25,6 +29,7 @@
 			"data": [65, 59, 80, 81, 56, 55, 40]
 		}],
 		"type":"bar",
+		"listDescription:" : [],
 		"description" : "Der Stromverbrauch zeigt..."
   	},
 	{
@@ -38,6 +43,7 @@
 			"data": [65, 59, 80, 81, 56, 55, 40]
 		}],
 		"type" : "bar",
+		"listDescription:" : [],
 		"description" : "Der Wärme verbrauch zeigt..."
   	}
 ]
