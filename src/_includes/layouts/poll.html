@@ -11,62 +11,49 @@
 {% block content %}			
 	{% for chart in charts %}
 	
-		<h1>{{chart.title}}</h1>
-		{% if loop.index%2 == 0 %}
+		<h1>{{chart.Headline}}</h1>
+		<h2>{{chart.SubTitle}}</h2>
 		<div class="container mt-5">
 			<div class="row chart-row">
 				<!-- First Row -->
 				<div class="col-lg-6">
+					{% if chart.LeftSide.type == "text"%}
+						{{chart.LeftSide.text}}
+					{% elif chart.LeftSide.type == "bulletList" %}
+						<ul>
+						{% for desc in chart.LeftSide.listDescription %}
+							<li>{{desc}}</li>
+						{% endfor %}	
+						</ul>
+					{% else %}
 					<div class="chart-container">
-						<canvas id={{chart.title}}></canvas>
+						<canvas id={{chart.LeftSide.Id}}></canvas>
 					</div>
-				</div>			
-				<div class="col-lg-6">
-					<div class="form-group">
-						<div> 
-							{% if chart.listDescription.length >= 1%}
-								<ul>
-								{% for desc in chart.listDescription %}	
-								<li>{{desc}}</li>
-								{% endfor %}
-								</ul>	
-							{% else %}
-								<h1>{{chart.description}}</h1>
-							{% endif %}
-						</div>
-					</div>
+					{% Chart chart.LeftSide%}	
+					{% endif %}	
 				</div>
-			</div>
-		</div>
-		{% else %}
-		<div class="container mt-5">
-			<div class="row chart-row">
+					
 				<div class="col-lg-6">
-					<div class="form-group">
-						<div> 	
-							{% if chart.listDescription.length >= 1%}
-								<ul>
-								{% for desc in chart.listDescription %}	
-								<li>{{desc}}</li>
-								{% endfor %}
-								</ul>	
-							{% else %}
-								{{chart.description}}
-							{% endif %}
-						</div>
-					</div>
-				</div>
-				<!-- First Row -->
-				<div class="col-lg-6">
+					{% if chart.RightSide.type == "text"%}
+						{{chart.RightSide.text}}
+					{% elif chart.RightSide.type == "bulletList" %}
+						<ul>
+						{% for desc in chart.RightSide.listDescription %}
+							<li>{{desc}}</li>
+						{% endfor %}	
+						</ul>
+					{% else %}
 					<div class="chart-container">
-						<canvas id={{chart.title}}></canvas>
+						<canvas id={{chart.RightSide.Id}}></canvas>
 					</div>
-				</div>			
+					{% Chart chart.RightSide%}
+					{% endif %}
+				</div>
 				
 			</div>
 		</div>
-		{%endif%}
-		{% Chart chart%}
+		
+		
 		
 	{% endfor %}
 	

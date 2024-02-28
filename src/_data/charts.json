@@ -1,49 +1,206 @@
 [
 	{
-		"title" : "Teilnahme",
-		"labels": ["Interesse", "kein Interesse"],
-		"datasets": [{
-			"label": "My First Dataset",
-			"data": [79, 21],
-			"backgroundColor": [
-				"#ED7D31",
-				"#FFC000"
-			]	
-		}],
-		"type" : "pie",
-		"listDescription:" : [
-			"Interviews: rund 100 Haushalte",
-			"Mehrfamilienhäuser mit zentraler Heizung/Strom gelten als 1 Haushalt",
-			"Entspricht ca 300 Haushalten"
-		],
-		"description" : "Test"
- 	},	
-  	{
-		"title" : "Stromverbrauch",
-		"labels": ["January", "February", "March", "April", "May", "June", "July"],
-		"datasets": [{
-			"label": "Dataset 1",
-			"backgroundColor": "rgba(255, 99, 132, 0.2)",
-			"borderColor": "rgba(255, 99, 132, 1)",
-			"borderWidth": 1,
-			"data": [65, 59, 80, 81, 56, 55, 40]
-		}],
-		"type":"bar",
-		"listDescription:" : [],
-		"description" : "Der Stromverbrauch zeigt..."
-  	},
-	{
-		"title" : "Wärme",	
-		"labels": ["January", "February", "March", "April", "May", "June", "July"],
+		"Headline" : "Teilnahme",
+		"SubTitle" : "",
+		"LeftSide" : {
+			"type" : "pie",
+			"Id" : "participation",
+			"labels": ["Interesse", "kein Interesse"],
 			"datasets": [{
-			"label": "Dataset 1",
-			"backgroundColor": "rgba(255, 99, 132, 0.2)",
-			"borderColor": "rgba(255, 99, 132, 1)",
-			"borderWidth": 1,
-			"data": [65, 59, 80, 81, 56, 55, 40]
-		}],
-		"type" : "bar",
-		"listDescription:" : [],
-		"description" : "Der Wärme verbrauch zeigt..."
-  	}
+				"label": "My First Dataset",
+				"data": [79, 21],
+				"backgroundColor": [
+					"#ED7D31",
+					"#FFC000"
+				]	
+			}]
+		},
+		"RightSide" : {
+			"type" : "bulletList",
+			"listDescription" : [
+				"Interviews: rund 100 Haushalte",
+				"Mehrfamilienhäuser mit zentraler Heizung/Strom gelten als 1 Haushalt",
+				"Entspricht ca 300 Haushalten"
+			]
+		},
+		"ExtraInformation" : ""
+	},
+	{
+		"Headline" : "Interesse mitzuwirken",
+		"LeftSide" : {
+			"title" : "",
+			"Id" : "ActivParticipation",
+			"labels": ["Aktiv", "Passiv", "Unentschlossen"],
+			"datasets": [{
+				"label": "Interesse mitzuwirken",
+				"data": [48, 11,18],
+				"backgroundColor": [
+					"#ED7D31",
+					"#FFC000",
+					"#44546A"
+				]	
+			}],
+			"type" : "pie",
+			"listDescription" : [],
+			"description" : "Passiv sind Haushalte die Strom oder Wärme beziehen würden. Aktive Haushalten möchten Zum Beispiel Dachflächen Bereitstellen, oder investieren."
+		 },
+		 "RightSide" : {
+			"title" : "Bereiche",	
+			"Id" : "activeParticipation2",
+			"labels": ["Investieren", "Produzieren und Resourcen", "Insgesamt", "Strom", "Wärme"],
+				"datasets": [
+					{
+						"label": "Aktiv",
+						"backgroundColor": "#ED7D31",
+						"borderColor": "#ED7D31",
+						"borderWidth": 1,
+						"data": [34, 45, 48, 0, 0]
+					},
+					{
+						"label": "Passiv",
+						"backgroundColor": "#FFC000",
+						"borderColor": "#FFC000",
+						"borderWidth": 1,
+						"data": [0, 0, 0, 57, 43]
+					}
+
+				],
+			"type" : "bar",
+			"listDescription" : [],
+			"description" : "Der Wärme verbrauch zeigt..."
+		  },
+		  "ExtraInformation" : ""
+	},
+	{
+		"Headline" : "Angabe zu den Verbrauchsdaten",
+		"SubTitle" : "",
+		"LeftSide" : {
+			"title" : "Strom",
+			"Id" : "usagePower",
+			"labels": ["Verbrauchs Angaben", "keine Angaben"],
+			"datasets": [{
+				"label": "Verbrauchsdaten Strom",
+				"data": [57, 18],
+				"backgroundColor": [
+					"#ED7D31",
+					"#FFC000"
+				]	
+			}],
+			"type" : "pie"
+		 },
+		 "RightSide" : {
+			"title" : "Wärme",
+			"Id" : "usageHeat",
+			"labels": ["Verbrauchs Angaben", "keine Angaben"],
+			"datasets": [{
+				"label": "Verbrauchsdaten Strom",
+				"data": [44, 33],
+				"backgroundColor": [
+					"#ED7D31",
+					"#FFC000"
+				]	
+			}],
+			"type" : "pie",
+			"listDescription" : [
+			],
+			"description" : "In den folgenden Auswertungen wurden die Haushalte ohne Verbrauchsdaten Angabe mit dem deutschen Durchschnitt berechnet. Verbrauchsdaten können gerne weiterhin per mail an uns gesendet werden."
+		 },
+		 "ExtraInformation" : "In den folgenden Auswertungen wurden die Haushalte ohne Verbrauchsdaten Angabe mit dem deutschen Durchschnitt berechnet. Verbrauchsdaten können gerne weiterhin per mail an uns gesendet werden."
+	},
+	{
+		"Headline" : "Energie Verbrauch pro Jahr",
+		"SubTitle" : "",
+		"LeftSide" :{
+			"title" : "Energie Verbrauch pro Jahr",
+			"Id" : "consumptionEnergy",
+			"labels": ["Energie"],
+			"datasets": [
+				{
+					"label": "Strom",
+					"backgroundColor": "#FFC000",
+					"borderColor": "#FFC000",
+					"borderWidth": 1,
+					"data": [244]
+				},
+				{
+					"label": "Wärme",
+					"backgroundColor": "#ED7D31",
+					"borderColor": "#ED7D31",
+					"borderWidth": 1,
+					"data": [787]
+				}
+			],
+			"type":"bar-h"
+			
+		},
+		"RightSide" : {
+			"type" : "text",
+			"text" : "Aus den angegebenen Verbrauchsdaten lässt sich der ungefähre Verbrauch aller interessierten Haushalte ableiten. Man kann erkennen das ca 75% unseres Energiebedarfs für Warmwasser und Heizung benötigt werden. Das bedeutet für uns das es hier großes Potential gibt mit regenerativen Wärmequellen effizienter zu werden und Energie einzusparen."
+		},
+		"ExtraInformation" : ""
+	},
+	{
+		"Headline" : "Energie Kosten pro Jahr",
+		"SubTitle" : "",
+		"LeftSide" : {
+			"type" : "text",
+			"text" : "Entgegen dem Verhältniss beim Energieverbrauch liegt der größere Kostenanteil beim Strom. Das bedeutet für uns das es hier finanziell am meisten optimierungs Möglichkeiten gibt."
+		},
+		"RightSide" : {
+			"title" : "Energie Kosten pro Jahr",
+			"Id" : "costsEnergy",
+			"labels": ["Kosten"],
+			"datasets": [
+				{
+					"label": "Strom",
+					"backgroundColor": "#FFC000",
+					"borderColor": "#FFC000",
+					"borderWidth": 1,
+					"data": [75000]
+				},
+				{
+					"label": "Wärme",
+					"backgroundColor": "#ED7D31",
+					"borderColor": "#ED7D31",
+					"borderWidth": 1,
+					"data": [55000]
+				}
+			],
+			"type":"bar-h"
+		},
+		"ExtraInformation" : ""
+	},
+	{
+		"Headline" : "Emissionen pro Jahr in Tonnen C02",
+		"LeftSide" : {
+			"title" : "Emissionen pro Jahr in Tonnen C02",
+			"Id" : "emissions",
+			"labels": ["Co2"],
+			"datasets": [
+				{
+					"label": "Strom in Tonnen Co2",
+					"backgroundColor": "#FFC000",
+					"borderColor": "#FFC000",
+					"borderWidth": 1,
+					"data": [141]
+				},
+				{
+					"label": "Wärme",
+					"backgroundColor": "#ED7D31",
+					"borderColor": "#ED7D31",
+					"borderWidth": 1,
+					"data": [240]
+				}
+			],
+			"type":"bar-h",
+			"listDescription" : [],
+			"description" : ""
+		},
+		"RightSide" : {
+			"type" : "text",
+			"text" : ""
+		},
+		"ExtraInformation" : ""
+	}
+  	
 ]

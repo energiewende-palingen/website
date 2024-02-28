@@ -1,3 +1,43 @@
+var pieChartOptions = {
+	responsive: true,
+	maintainAspectRatio: false, // This prevents Chart.js from overwriting canvas width and height
+	scales: {
+		x: {
+		   display: false,
+		},
+		y: {
+		   display: false,
+		}
+	 },
+  };
+
+var barChartOptions = {
+	responsive: true,
+	maintainAspectRatio: false, // This prevents Chart.js from overwriting canvas width and height
+	scales: {
+		x: {
+		   display: true,
+		},
+		y: {
+		   display: true,
+		}
+	 },
+  };
+
+var hBarOptions = {
+	responsive: true,
+	maintainAspectRatio: false, // This prevents Chart.js from overwriting canvas width and height
+	indexAxis: 'y',
+	scales: {
+		x: {
+		  stacked: true,
+		},
+		y: {
+		  stacked: true
+		}
+	  }
+  };
+
 function drawSegmentValues(myPieChart)
 {
     var radius = myPieChart.outerRadius;
