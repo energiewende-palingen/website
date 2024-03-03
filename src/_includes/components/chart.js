@@ -4,7 +4,6 @@ function ChartComponent(data){
 	return html`
 	<script>
 	
-	
 	var options = pieChartOptions;
 	var type = "${data.type}";
 	if(type == 'bar'){

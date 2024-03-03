@@ -2,13 +2,15 @@
 
 {% block head %}
 	<link rel="stylesheet" href="/css/pages.css" />
+	<link rel="stylesheet" href="/css/charts.css" /> 
 	<!-- Chart.js CDN -->
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
 	<script src="/scripts/chartHelper.js"></script>
 {% endblock %}
 
 
-{% block content %}			
+{% block content %}		
+<article class="page_content">
 	{% for chart in charts %}
 	
 		<h1>{{chart.Headline}}</h1>
@@ -16,9 +18,11 @@
 		<div class="container mt-5">
 			<div class="row chart-row">
 				<!-- First Row -->
-				<div class="col-lg-6">
+				<div class="col-lg-6 chart-description">
 					{% if chart.LeftSide.type == "text"%}
 						{{chart.LeftSide.text}}
+					{% elif chart.LeftSide.type == "OneNumber"%}
+						<div class="oneNumber">{{chart.LeftSide.text}}</div>
 					{% elif chart.LeftSide.type == "bulletList" %}
 						<ul>
 						{% for desc in chart.LeftSide.listDescription %}
@@ -26,7 +30,7 @@
 						{% endfor %}	
 						</ul>
 					{% else %}
-					<div class="chart-container">
+					<div class="chart-container ${chart.LeftSide.type}-chart">
 						<canvas id={{chart.LeftSide.Id}}></canvas>
 					</div>
 					{% Chart chart.LeftSide%}	
@@ -35,7 +39,7 @@
 					
 				<div class="col-lg-6">
 					{% if chart.RightSide.type == "text"%}
-						{{chart.RightSide.text}}
+						<div class="chart-description">{{chart.RightSide.text}}</div>
 					{% elif chart.RightSide.type == "bulletList" %}
 						<ul>
 						{% for desc in chart.RightSide.listDescription %}
@@ -43,7 +47,7 @@
 						{% endfor %}	
 						</ul>
 					{% else %}
-					<div class="chart-container">
+					<div class="chart-container {{chart.RightSide.type}}-chart">
 						<canvas id={{chart.RightSide.Id}}></canvas>
 					</div>
 					{% Chart chart.RightSide%}
@@ -51,12 +55,13 @@
 				</div>
 				
 			</div>
+			<div class="extraInformation">{{chart.ExtraInformation}}</div>
 		</div>
 		
 		
 		
 	{% endfor %}
-	
+</article>		
 {% endblock %}
 
 

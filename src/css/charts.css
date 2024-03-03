@@ -1,0 +1,28 @@
+.extraInformation {
+	margin: 10px;
+}
+
+.chart-container{
+	margin: 10px;
+}
+
+.bar-chart{
+	height: 300px;
+}
+
+.chart-description{
+	margin: auto;
+}
+
+.mt-5{
+	margin-bottom: 3rem;
+}
+
+.oneNumber {
+	font-weight: bold;
+	font-size: 2em; /* Adjust the size as needed */
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

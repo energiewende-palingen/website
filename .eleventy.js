@@ -16,6 +16,10 @@ module.exports = function(eleventyConfig){
 	eleventyConfig.addCollection("pages", function(collectionApi) {
 		return collectionApi.getFilteredByGlob("src/pages/**/*.md");
 	});
+
+	eleventyConfig.addCollection("eventPages", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("src/eventPages/**/*.md");
+	});
 	
 	return {
 		dir : {

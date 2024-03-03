@@ -37,7 +37,7 @@
 				"backgroundColor": [
 					"#ED7D31",
 					"#FFC000",
-					"#44546A"
+					"#446a52"
 				]	
 			}],
 			"type" : "pie",
@@ -198,7 +198,19 @@
 		},
 		"RightSide" : {
 			"type" : "text",
-			"text" : ""
+			"text" : "Durch Nutzung regenerativer Wärme lassen sich ca 160t jährlich einsparen. Durch direkt verbrauchten Solarstrom weitere 40t. Der eingespeiste Solarstrom vermeidet weitere 180t bei anderen Haushalten. Dadurch lässt sich die Bilanz auf nahezu 0 bringen."
+		},
+		"ExtraInformation" : ""
+	},
+	{
+		"Headline" : "Geschätzte Dachkapazität",
+		"LeftSide" : {
+			"type" : "OneNumber",
+			"text" : "700 kwP"
+		},
+		"RightSide" : {
+			"type" : "text",
+			"text" : "Geschätzt mit 45 Hausanlagen, davon 3 Großanlagen mit >60 kwP. Entspricht einer Jahresproduktion von ca 500 MwH, und damit ca 50% des aktuellen Energiejahresbedarfs der interessierten Haushalte."
 		},
 		"ExtraInformation" : ""
 	}

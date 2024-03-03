@@ -20,6 +20,7 @@ var barChartOptions = {
 		},
 		y: {
 		   display: true,
+		   stepSize: 10
 		}
 	 },
   };
