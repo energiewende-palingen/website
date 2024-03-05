@@ -18,12 +18,23 @@ title: Energiewende Palingen
 		<div class="nextEvent"><a href={{eventPage.url}}>Nächstes Planungstreffen: 20.03.2024 - 19 Uhr Hofcafe - Deel28</a></div>
 	{% endif %}
 	{% endfor %}
+	<h3>Informiert bleiben</h3>
+	<div class="newsletterSubscribe"><a href="/pages/subscribe">Hier kannst du dich zu unserem Newsletter anmelden</a></div>
+	<span><br></span>
+	<h3>Wie kann ich mitmachen?</h3>
+	Wir freuen uns über Jede und Jeden die dabei mitwirken wollen unser Dorf mit regenerativer Energie zu versorgen. 
+	Ein professioneller Hintergrund ist nicht notwendig. Alle können mit anfassen. Hier sind ein paar Punkte wie du mitwirken kannst: 
+	<ul>
+		<li>Du bist herzlich zu unseren Planungstreffen eingeladen.</li>
+		<li>Du kannst als <a href="/pages/exampleHouseHold">Musterhaushalt</a> mitwirken</li>
+		<li>In unserem Bereich: <a href="/pages/openResearchTopics">Recherche</a> findest du eine Liste an Recherche Aufgaben die bequem und jederzeit zu Hause erledigt werden können</li>
+	</ul>
 	
 	<span><br></span>
 	<h3>Die aktuellen Themen</h3>
 	<div>
 		<div class="row row-cols-3">
-			{%for page in collections.pages %}
+			{%for page in collections.topics %}
 				{% Card title=page.data.title, src=page.data.src, description=page.data.description, link=page.url, linkText=page.data.title%}
 			{%endfor%}
 		</div>

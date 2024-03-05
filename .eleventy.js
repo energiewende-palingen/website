@@ -13,8 +13,8 @@ module.exports = function(eleventyConfig){
 	eleventyConfig.addShortcode("Card", Card);
 	eleventyConfig.addShortcode("Chart", ChartComponent);
 	// create a custom filtered collection that only matches a specific tag in `tags`
-	eleventyConfig.addCollection("pages", function(collectionApi) {
-		return collectionApi.getFilteredByGlob("src/pages/**/*.md");
+	eleventyConfig.addCollection("topics", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("src/topics/**/*.md");
 	});
 
 	eleventyConfig.addCollection("eventPages", function(collectionApi) {

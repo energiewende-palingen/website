@@ -1,17 +1,28 @@
-body{
+body {
 	background-color: #f6efe3;
 }
-h1{
+
+.light-bg{
+	background-color: #f6efe3;
+}
+
+a {
+	color: #446a52;
+}
+
+h1 {
 	color: #e8494a;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
 
-@media (min-width: 601px){
-	.headline{
+@media (min-width: 601px) {
+	.headline {
 		margin: auto;
 		font-weight: bold;
 		font-size: 3em;
@@ -19,31 +30,31 @@ h1,h2,h3{
 	}
 }
 
-.headerImage{
-	
+.headerImage {
+
 	display: block;
-	max-width:230px;
-	max-height:200px;
+	max-width: 230px;
+	max-height: 200px;
 	width: auto;
 	height: auto;
-	
+
 }
 
 @media (max-width: 600px) {
 	.headerImage {
-	  display: none;
+		display: none;
 	}
 
 	.headline {
 		margin: auto;
 		font-weight: bold;
 		font-size: 3em;
-		margin-left: 10px;	
+		margin-left: 10px;
 	}
- }
+}
 
-.btn-primary{
-	
+.btn-primary {
+
 	background-color: #ED7D31;
 	--bs-btn-hover-border-color: #FFC000 !important;
 	--bs-btn-hover-bg: #FFC000 !important;
@@ -64,33 +75,55 @@ h1,h2,h3{
 	padding: 15px;
 	margin: 25px;
 }
-.nextEvent a{
+
+.newsletterSubscribe{
+	margin: auto;
+	font-weight: bold;
+	font-size: 1.0em;
+	background-color: #446a52;
+	color: #ffffff;
+	padding: 10px;
+	margin: 20px;
+}
+
+.newsletterSubscribe a {
 	color: #ffffff;
 }
 
-.dark-bg{
+.nextEvent a {
+	color: #ffffff;
+}
+
+.dark-bg {
 	background-color: #d5c8b2;
 }
 
-.clear{
+.clear {
 	height: 200px;
 }
 
-.navbar{
+.navbar {
 	--bs-navbar-padding-y: 0em !important;
 	margin-top: 1em;
 	margin-bottom: 3em;
-	
+
 }
 
-.link{
+.link {
 	--bs-nav-link-color: #ffffff !important;
 	color: #ffffff;
 }
 
 .logo-support {
-	max-width:180px;
-  	max-height:100px;
-  	width: auto;
-  	height: auto;
+	max-width: 180px;
+	max-height: 100px;
+	width: auto;
+	height: auto;
+}
+
+#mc_embed_signup {
+	background: #f6efe3;
+	clear: left;
+	font: 14px Helvetica, Arial, sans-serif;
+	width: 600px;
 }
