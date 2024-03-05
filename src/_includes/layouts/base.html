@@ -11,8 +11,11 @@
 	{% include "navbar.html"%}
 	
 	{% block content %}
+	<article class="page_content"></article>
 		{{ content | safe }}
+	</article>
 	{% endblock %}
 	
+	{% include "footer.html" %}
 </body>
 </html>
