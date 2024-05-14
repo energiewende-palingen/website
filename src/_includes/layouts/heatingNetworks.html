@@ -1,0 +1,75 @@
+{% extends "layouts/pages.html" %}
+
+{% block head %}
+	<link rel="stylesheet" href="/css/pages.css" />
+{% endblock %}
+
+{% block content %}
+
+	<article class="page_content">
+	{{ content | safe }}
+
+    {%- for project in collections.heatingNetworks -%}
+    <div>
+    <a href={{project.data.pl}}>
+        <h2>{{project.data.title}}</h2>    
+    </a>    
+    </div>
+    <div>
+        <p>{{project.data.description}}</p>
+        <div class="row">
+            <div class="col">
+                <img src={{project.data.image}} class="small-image">
+            </div>
+            <div class="col">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Haushalte<th>
+                            <td>{{project.data.households}}
+                        </tr>
+                        <tr>
+                            <th scope="row">Netzlänge<th>
+                            <td>{{project.data.length}}
+                        </tr>
+                        <tr>
+                            <th scope="row">Erzeuger<th>
+                            <td>{{project.data.type}}
+                        </tr>
+                        <tr>
+                            <th scope="row">Wärmebedarf<th>
+                            <td>{{project.data.heatConsumption}}
+                        </tr>
+                        <tr>
+                            <th scope="row">Leistung<th>
+                            <td>{{project.data.heatPeak}}
+                        </tr>
+                        <tr>
+                            <th scope="row">Wärmekosten<th>
+                            <td>{{project.data.heatCosts}}
+                        </tr>
+                        <tr>
+                            <th scope="row">Genossenschafts Einlagen<th>
+                            <td>{{project.data.customerInvest}}
+                        </tr>
+                        {%-if project.solarpower.length > 0-%}
+                        <tr>
+                            <th scope="row">Solaranlage<th>
+                            <td>{{project.data.solarpower}}
+                        </tr>
+                        {%- endif -%}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h4>Gesamt Investition: {{project.data.overallInvest}}</h4>
+    </div>
+    <div>
+        {{project.content | safe }}
+    </div>
+    {%- endfor -%}
+</article>
+
+{% endblock %}
+
+

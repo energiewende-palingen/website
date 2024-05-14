@@ -3,6 +3,14 @@
 	margin: 0 auto;
 }
 
+.page_content img {
+	max-width: 960px;
+}
+
+.small-image {
+	max-width: 400px !important;
+}
+
 @media (max-width: 960px){
 	.page_content {
 		max-width: 960px;
