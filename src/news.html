@@ -1,0 +1,41 @@
+---
+layout: layouts/pages.html
+title: Energiewende Palingen
+---
+<article class="page_content">
+	<h2>Gemeinsam für eine Energiegewinnende Zukunft in Palingen</h2>
+	<div class="content">
+		<div class="row">
+			<div class="col-9">
+				<h3>Unser Ziel</h3>
+				<article>
+					Seit 2022 setzt sich eine engagierte Arbeitsgruppe für die Verwirklichung einer energiegewinnenden Zukunft in Palingen ein. Wir sind davon überzeugt, dass es in unserem Dorf möglich ist, so viel Energie in Form von Strom und/oder Wärme zu erzeugen, dass sie den Gesamtverbrauch im Ort übersteigt. Hiermit erfüllten wir aus eigener Kraft einen großen Beitrag zur Energiewende und könnten daraus sogar ein renditefähiges Geschäftsmodell entwickeln, an der sich das gesamte Dorf beteiligen kann. 
+				</article>
+			</div>
+			<div class="col">
+				<div class="newsletterSubscribe"><a href="/pages/subscribe">Hier kannst du dich zu unserem Newsletter anmelden</a></div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+
+	<h2>News</h2>
+	{%- for news in collections.news | reverse -%}
+	<h3>{{news.data.title}}</h3>
+	<div class="content border-bottom border-5">
+		<div class="row">
+			<div class="col">
+				<img src={{news.data.image}} class="small-image">
+			</div>
+			<div class="col">
+				{{news.content | safe }}
+			</div>
+		</div>
+	</div>
+	{{news.data.content}}
+	{%- endfor -%}
+ 
+
+</article>

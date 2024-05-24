@@ -22,6 +22,10 @@ module.exports = function(eleventyConfig){
 		return collectionApi.getFilteredByGlob("src/topics/**/*.md");
 	});
 
+	eleventyConfig.addCollection("news", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("src/news/**/*.md");
+	});
+
 	eleventyConfig.addCollection("heatingNetworks", function(collectionApi) {
 		return collectionApi.getFilteredByGlob("src/heating_networks/**/*.md");
 	});
