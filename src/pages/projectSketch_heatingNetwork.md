@@ -34,6 +34,7 @@ Da die Bereiche ähnlich groß sind, gehen wir davon aus, dass der Aufwand und d
 ## Aktueller Planungsstand für das Wärmenetz im Unterdorf
 
 Aktuell erheben wir detaillierte Daten zu den einzelnen Haushalten im Gebiet, und fragen erste Angebote für den Bau und die Heizungsanlagen an.
+Das aktuelle Konzept befindet sich hier: [Projektskizze Unterdorf](/pages/projectSketch_heatingNetworkA1)
 
 
 ## Aktuelle Planungsstand für das Wärmenetz im gesamten Dorf
