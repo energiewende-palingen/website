@@ -4,51 +4,38 @@ title: Energiewende Palingen
 ---
 <article class="page_content">
 	<h2>Gemeinsam für eine Energiegewinnende Zukunft in Palingen</h2>
-	<h3>Unser Ziel</h3>
-	<article>
-		Seit 2022 setzt sich eine engagierte Arbeitsgruppe für die Verwirklichung einer energiegewinnenden Zukunft in Palingen ein. Wir sind davon überzeugt, dass es in unserem Dorf möglich ist, so viel Energie in Form von Strom und/oder Wärme zu erzeugen, dass sie den Gesamtverbrauch im Ort übersteigt. Hiermit erfüllten wir aus eigener Kraft einen großen Beitrag zur Energiewende und könnten daraus sogar ein renditefähiges Geschäftsmodell entwickeln, an der sich das gesamte Dorf beteiligen kann. 
-	</article>
-	<h3>Worum geht es</h3>
-	<article>
-		Auf dieser Seite möchten wir den aktuellen Planungsstand und die nächsten Schritte präsentieren.
-		Hier findet ihr die nächsten Termine und Themen und seid herzlich eingeladen zu unseren Planungstreffen.		
-	</article>
-	{% for eventPage in collections.eventPages %}
-	{% if eventPage.data.id=="PT200324" %}
-		<div class="nextEvent"><a href={{eventPage.url}}>Nächstes Planungstreffen: 20.03.2024 - 19 Uhr Hofcafe - Deel28</a></div>
-	{% endif %}
-	{% endfor %}
-	<h3>Informiert bleiben</h3>
-	<div class="newsletterSubscribe"><a href="/pages/subscribe">Hier kannst du dich zu unserem Newsletter anmelden</a></div>
-	<span><br></span>
-	<h3>Wie kann ich mitmachen?</h3>
-	Wir freuen uns über Jede und Jeden die dabei mitwirken wollen unser Dorf mit regenerativer Energie zu versorgen. 
-	Ein professioneller Hintergrund ist nicht notwendig. Alle können mit anfassen. Hier sind ein paar Punkte wie du mitwirken kannst: 
-	<ul>
-		<li>Du bist herzlich zu unseren Planungstreffen eingeladen.</li>
-		<li>Du kannst als <a href="/pages/exampleHouseHold">Musterhaushalt</a> mitwirken</li>
-		<li>In unserem Bereich: <a href="/pages/openResearchTopics">Recherche</a> findest du eine Liste an Recherche Aufgaben die bequem und jederzeit zu Hause erledigt werden können</li>
-	</ul>
+	<div class="content">
+		<div class="row">
+			<div class="col-9">
+				<h3>Unser Ziel</h3>
+				<article>
+					Seit 2022 setzt sich eine engagierte Arbeitsgruppe für die Verwirklichung einer energiegewinnenden Zukunft in Palingen ein. Wir sind davon überzeugt, dass es in unserem Dorf möglich ist, so viel Energie in Form von Strom und/oder Wärme zu erzeugen, dass sie den Gesamtverbrauch im Ort übersteigt. Hiermit erfüllten wir aus eigener Kraft einen großen Beitrag zur Energiewende und könnten daraus sogar ein renditefähiges Geschäftsmodell entwickeln, an der sich das gesamte Dorf beteiligen kann. 
+				</article>
+			</div>
+			<div class="col">
+				<div class="newsletterSubscribe"><a href="/pages/subscribe">Hier kannst du dich zu unserem Newsletter anmelden</a></div>
+			</div>
+		</div>
+	</div>
 	
-	<span><br></span>
-	<h3>Die aktuellen Themen</h3>
-	<div>
-		<div class="row row-cols-3">
-			{%for page in collections.topics %}
-				{% Card title=page.data.title, src=page.data.src, description=page.data.description, link=page.url, linkText=page.data.title%}
-			{%endfor%}
+	
+	
+
+	<h2>News</h2>
+	{%- for news in collections.news | reverse -%}
+	<h3>{{news.data.title}}</h3>
+	<div class="content border-bottom border-5">
+		<div class="row">
+			<div class="col">
+				<img src={{news.data.image}} class="small-image">
+			</div>
+			<div class="col">
+				{{news.content | safe }}
+			</div>
 		</div>
 	</div>
-	<div >
-	<div>
-		<div class="space-small"></div>
-		<h4> Dieses Projekt wird unterstützt von</h4>
-		<div class="row dark-bg">
-			<div class="col"><img class="logo-support" src="/assets/images/logo_ews.jpeg"/></div>
-			<div class="col"><a href="http://www.deel28.de/" target="_blank" rel="noopener noreferrer"><img class="logo-support" src="/assets/images/deel28-logo.png" /></a></div>
-			<div class="col"><a class="link" href="https://www.avalun-ev.de/" target="_blank" rel="noopener noreferrer"><div class="" >Avalun e.V</div></a></div>
-		</div>
-	</div>
-</div>
+	{{news.data.content}}
+	{%- endfor -%}
+ 
 
 </article>
