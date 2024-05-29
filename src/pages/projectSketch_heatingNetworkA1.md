@@ -52,8 +52,8 @@ Die genauen Zahlen und Aufbau müssen von einem Planungsbüro ermittelt werden, 
 
 ### Kostenabschätzung
 
-![image](/assets/images/KostenAbschätzung_Unterdorf.png)
+![image](/assets/images/KA_Unterdorf.png)
 
-![image](/assets/images/KostenAbschätzung_Unterdorf_Waermekosten.png)
+![image](/assets/images/KA_Unterdorf_Waermekosten.png)
 
 
