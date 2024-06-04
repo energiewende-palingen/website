@@ -9,15 +9,13 @@ description: Mit der Skizze möchten wir eine grob Planung der ersten Maßnahmen
 
 Grundvorraussetzung für alle Varianten eines Wärmenetzes ist das Anschlussinteresse und später die Anschlusszusage der Haushalte. 
 Für die Haushalte ist es allerdings essentiell eine Ungefähre Vorstellung der Kosten zu haben, um dieses Interesse ernsthaft zu Vertreten.
-Daher haben wir uns verschiedene existierende Projekte angeschaut, und daraus ein paar grobe Größenordnungen abzuleiten.
-
-Üblicherweise erwarten Anschlussnehmer einmalige Anschlusskosten von 5000 - 10.000 € die gleichzeitig auch eine Beteiligung an der Betreibergesellschaft darstellen.
-Diese Kosten sind also deutlich unter den Anschaffungskosten einer eigenen neuen Heizung zu erwarten. 
-Die Wärme in diesen Netzen kostet üblicherweise 0.09 €/kwH - 0.14 €/kwH. Auch diese Preise sind demnach entsprechend den aktuellen Gaspreisen ( 0.09 € / kwH ). 
-Da in einem Wärmenetz nur die tatsächlich abgenommene Wärme ohne Heizungsverluste bezahlt wird, ist tendenziell sogar mit Einsparung zu Rechnen.
-Üblicherweise liegt der Heizungsverlust, der dann nicht mehr bezahlt werden muss zwischen 15-30% .
+Daher haben wir uns verschiedene existierende Projekte angeschaut und in Kurzform aufbereitet.
 
 [Übersicht ausgewählter Wärmenetze](/pages/research_heating_network)
+
+Generell ist zu erwarten das die Kosten deutlich unter den Anschaffungskosten einer eigenen neuen Heizung liegen. 
+Zusätzlich ergeben sich die Kosten im Vergleich zu einer eigenen neuen Heizungsanlage nicht mehr als
+große einmalige Investition, sondern als kleiner monatlicher Abschlag.
 
 Auf Basis der Umfragedaten haben wir Palingen in 6 Bereiche aufgeteilt.
 Ausschlaggebend für die Aufteilung war das angegebene Interesse in der Umfrage, so das möglichst viele Interessierte die räumlich nah bei einander sind in einem Gebiet liegen. 

@@ -25,7 +25,7 @@ title: Energiewende Palingen
 	{%- for news in collections.news | reverse -%}
 	<h3>{{news.data.title}}</h3>
 	<div class="content border-bottom border-5">
-		<div class="row">
+		<div class="row mb-3">
 			<div class="col">
 				<img src={{news.data.image}} class="small-image">
 			</div>
@@ -33,8 +33,8 @@ title: Energiewende Palingen
 				{{news.content | safe }}
 			</div>
 		</div>
+		
 	</div>
-	{{news.data.content}}
 	{%- endfor -%}
  
 

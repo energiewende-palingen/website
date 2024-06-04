@@ -52,8 +52,9 @@ Die genauen Zahlen und Aufbau müssen von einem Planungsbüro ermittelt werden, 
 
 ### Kostenabschätzung
 
-![image](/assets/images/KA_Unterdorf.png)
+Genaue Kostenabschätzung lassen sich zum aktuellen Zeitpunkt noch nicht gesichert vornehmen.
+Wir arbeiten daran Angebote und professionelle Planung zu erhalten.
+Wer an einer groben Größenordnung interessiert ist, kann sich die Zahlen bereits (existierender Projekte)[/pages/research_heating_network] anschauen.
 
-![image](/assets/images/KA_Unterdorf_Waermekosten.png)
 
 
