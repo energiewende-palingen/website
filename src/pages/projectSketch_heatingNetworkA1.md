@@ -21,7 +21,7 @@ Leitungslänge: 400m
 
 Es soll eine Heizzentrale auf der Hauptstraße 11 entstehen, und alle interessierten Haushalte versorgen.
 Zur Planung werden aktuell die 4 größeren Wohngemeinschaften benutzt. Detaillierte Gespräche mit den Eigentümern werden aktuell geführt.
-Solltet Ihr Interesse haben an das Wärmenetz angeschlossen zu werden, meldet euch bei uns: mail@friedrichwessel.de
+Solltet Ihr Interesse haben an das Wärmenetz angeschlossen zu werden, meldet euch bei uns: info@energiewende-palingen.de
 
 ## Heizzentrale
 

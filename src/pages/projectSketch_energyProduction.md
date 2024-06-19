@@ -14,7 +14,7 @@ Vorrangig bietet sich hier das Aufbauen von Solaranlagen auf Frei- und Dachfläc
 
 Wir haben das im Folgenden beschriebene Konzept entworfen. Um das Konzept detaillierter zu Planen und zur Umsetzung zu bringen benötigen wir Unterstützung.
 Falls ihr Interesse an einer Solaranlage bei euch habt, oder bei der Planung unterstützen wollt meldet euch gerne bei uns. 
-Falls ihr euch unsicher seid, ob eine Solaranlage bei euch Sinnvoll ist, bieten wir euch gerne ein Info Gespräch an. Meldet euch einfach bei: mail@friedrichwessel.de
+Falls ihr euch unsicher seid, ob eine Solaranlage bei euch Sinnvoll ist, bieten wir euch gerne ein Info Gespräch an. Meldet euch einfach bei: info@energiewende-palingen.de
 
 ## Konzept
 

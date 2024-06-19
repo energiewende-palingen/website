@@ -11,4 +11,4 @@ Hauptstr. 28a
 23923 Palingen  
 
 ### Kontakt:
-E-Mail: mail@friedrichwessel.de
+E-Mail: info@energiewende-palingen.de
