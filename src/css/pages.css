@@ -4,11 +4,13 @@
 }
 
 .page_content img {
-	max-width: 960px;
+	max-width: 100%;
+	height: auto;
 }
 
 .small-image {
 	max-width: 400px !important;
+	height: auto !important;
 }
 
 @media (max-width: 960px){

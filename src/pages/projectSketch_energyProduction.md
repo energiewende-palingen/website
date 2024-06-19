@@ -46,7 +46,7 @@ Eine genaue Pacht können wir zum aktuellen Zeitpunkt noch nicht angeben.
 <div class="container">
     <div class=row>
         <div class="col">
-            <image src="/assets/images/houseIcon.png">
+            <image src="/assets/images/houseIcon.png" class="small-image">
         </div>
         <div class="col">
             <ul>
