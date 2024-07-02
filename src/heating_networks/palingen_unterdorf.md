@@ -12,5 +12,5 @@ overallInvest: ??
 solarpower: ??
 type: ??
 pl: 
-description: Zum Vergleich mit anderen Wärmenetzen hier die Kennzahlen für ein Wärmenetz im Unterdorf. In den Wärmekosten ist die Tilgung der gesamt Investition bei allen Projekten bereits enthalten. Das heißt der Anschlussnehmer zahlt nur noch den Wärmepreis sowie eventuell eine einmalige Anschlussgebühr oder Kapitaleinlage in die Betreibergesellschaft.
+description: Zum Vergleich mit anderen Wärmenetzen finden sich hier die Kennzahlen für ein Wärmenetz im Unterdorf. In den Wärmekosten ist die Tilgung der gesamten Investition bei allen Projekten bereits enthalten. Das heißt, der Anschlussnehmer zahlt nur noch den Wärmepreis sowie eventuell eine einmalige Anschlussgebühr oder Kapitaleinlage in die Betreibergesellschaft.
 ---

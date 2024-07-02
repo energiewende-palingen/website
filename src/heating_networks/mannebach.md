@@ -12,6 +12,6 @@ overallInvest: 580.000 €
 solarpower: 29kwP
 type: Hackschnitzel
 pl: "https://www.kreis-sim.de/Klimaschutz/Projekte-und-Kampagnen/B%C3%BCrgernahw%C3%A4rmenetze/Leuchtturmprojekte/index.php?La=1&object=tx,2052.772.1&kat=&kuo=2&sub=0"
-description: Ungefähr die gleiche Größenordung wie das Unterdorf in Palingen. Die Investitions und Wärmekosten geben uns also eine ungefähre Größenordung der zu erwartenden Kosten. 
+description: Ungefähr die gleiche Größenordnung wie im Unterdorf in Palingen. Die Investitions- und Wärmekosten geben uns also eine ungefähre Größenordnung der zu erwartenden Kosten.
 ---
 
