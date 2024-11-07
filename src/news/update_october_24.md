@@ -6,14 +6,13 @@ image: "/assets/images/projectSketchHeader2.png"
 
 Liebe Palingerinnen und Palinger,
 
-im letzten halben Jahr ist viel passiert  und wir möchten euch gerne zeigen wie der Stand ist. 
-Nach der Dorfumfrage haben wir uns folgende 3 Schwerpunkte für die Nachfolgende Arbeit gesetzt: 
+im letzten halben Jahr ist viel passiert, und wir möchten euch gerne zeigen, wie der Stand ist. Nach der Dorfumfrage haben wir uns folgende drei Schwerpunkte für die nachfolgende Arbeit gesetzt:
 
-* Gründung einer Gesellschaft 
-* Entwickeln einer Projektskizze
+* Gründung einer Gesellschaft
+* Entwicklung einer Projektskizze
 * Abschluss der Konzeption mit einer Machbarkeitsstudie
 
-In allen Bereichen haben wir große Fortschritte erzielt 
+In allen Bereichen haben wir große Fortschritte erzielt.
 
 [Weiterlesen...](/pages/update_october_24)
 
