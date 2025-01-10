@@ -2,6 +2,7 @@
 date: 2024-03-20
 title: Öffentliches Planungstreffen 20.03.2024
 image: "/assets/images/public_meeting.png"
+publishDate: 20.03.2024
 ---
 
 Unser erstes öffentliches Planungstreffen stieß auf sehr große Resonanz. Wir haben nach der Vorstellung des grundsätzlichen Aufbaus eines Wärmenetzes und einem Konzept zur [gemeinsamen Erstellung von Solaranlagen](/pages/projectSketch_energyProduction) viele Vorstellungen und Fragen ausgetauscht.
