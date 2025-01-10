@@ -9,7 +9,6 @@ publishDate: 05.01.2025
 
 Im letzten Jahr haben wir gemeinsam bereits viel erreicht. 
 Dabei haben wir mit Eurer Unterstützung vor allem die Möglichkeiten in Palingen erkundet.
-Zum Abschluss des Jahres haben wir unseren Verein **energiepalingen e.V** gegründet. 
 Vielen Dank für eure Unterstützung und Ausdauer!
 
 Wir starten mit viel Tatendrang in das neue Jahr und freuen uns auf viele gemeinsame Projekte mit euch!

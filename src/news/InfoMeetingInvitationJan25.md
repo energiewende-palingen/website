@@ -1,7 +1,7 @@
 ---
 date: 2025-01-10
 title: Informationsveranstaltung 27.02.2025
-image: "/assets/images/projectSketchHeader2.png"
+image: "/assets/images/InfoVeranstaltungJan25.png"
 publishDate: 10.01.2025
 ---
 
