@@ -24,6 +24,7 @@ title: Energiewende Palingen
 	<h2>News</h2>
 	{%- for news in collections.news | reverse -%}
 	<h3>{{news.data.title}}</h3>
+	<h6 class="sub-header"><i>{{news.data.publishDate}}</i></h6>
 	<div class="content border-bottom border-5">
 		<div class="row mb-3">
 			<div class="col">

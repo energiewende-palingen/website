@@ -2,6 +2,7 @@
 date: 2024-10-15
 title: Status der Projektskizze
 image: "/assets/images/projectSketchHeader2.png"
+publishDate: 15.10.2024
 ---
 
 Liebe Palingerinnen und Palinger,

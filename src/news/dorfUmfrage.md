@@ -2,6 +2,7 @@
 date: 2024-02-02
 title: Dorf Umfrage fertiggestellt
 image: "/assets/images/UmfrageHeader.png"
+publishDate: 02.02.2024
 ---
 
 Rund 100 Haushalte haben sich an der Umfrage zum Thema Energiegewinnung in Palingen beteiligt. Das freut uns!
