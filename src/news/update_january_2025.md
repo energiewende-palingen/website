@@ -7,10 +7,10 @@ publishDate: 27.01.2025
 
 Liebe Palingerinnen und Palinger,
 
-Wir haben unsere Projektskizze für das Wärmenetz im Unterdorf fertig gestellt.
+Wir haben unsere Projektskizze für das Wärmenetz im Unterdorf fertiggestellt.
 Diese Projektskizze haben wir am 30.01.2025 im Hofcafé den möglichen Haushalten vorgestellt.
 
-Die Daten aus dieser Projektskizze bilden die Grundlage für die Planung des Wärmenetzes in ganze Palingen - die wir am 27.02.2025 im Hofcafé vorstellen werden.
+Die Daten aus dieser Projektskizze bilden die Grundlage für die Planung des Wärmenetzes in ganz Palingen, die wir am 27.02.2025 im Hofcafé vorstellen werden.
 
 Mehr zur Projektskizze findest du [hier](/pages/projektskizze_waermenetz_unterdorf).
 
