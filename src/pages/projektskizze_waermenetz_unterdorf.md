@@ -2,20 +2,19 @@
 layout: layouts/pages.html
 title: Projekt Skizze Wärmenetz Unterdorf
 src: "/assets/images/projectSketchHeader.png"
-description: Mit der Skizze möchten wir eine grob Planung der ersten Maßnahmen präsentieren.
+description: Mit der Skizze möchten wir eine grobe Planung der ersten Maßnahmen präsentieren.
 ---
 
-## {{title}}
+# {{title}}
 
-## Aktueller Stand
+### Aktueller Stand
 *Stand: Januar 2025*
 
 Basierend auf den ersten Entwürfen für das [Wärmenetz im Bereich A1](/pages/projectSketch_heatingNetworkA1) haben wir das Gebiet erweitert sowie konkrete Kosten für das Netz erarbeitet.
 Die Ergebnisse wurden am 30.01.2025 den Anwohnern im Unterdorf vorgestellt. [Präsentation](/assets/images/Unterdorf_Jan25.pdf)
-Das genaue Anschlussinteresse basierend auf den Vorgestellten Zahlen wird bis Ende Februar über den [Vorvertrag zur Planung](/assets/images/Vorvertrag_Planung_Waermenetz.pdf) erfasst.
+Das genaue Anschlussinteresse basierend auf den vorgestellten Zahlen wird bis Ende Februar über den [Vorvertrag zur Planung](/assets/images/Vorvertrag_Planung_Waermenetz.pdf) erfasst.
 
-
-## Geplantes Gebiet
+### Geplantes Gebiet
 
 ![image](/assets/images/warmenetz_aufteilung.jpg)
 
@@ -23,23 +22,23 @@ Auf Basis der Umfragedaten haben wir Palingen in 6 Bereiche aufgeteilt.
 Ausschlaggebend für die Aufteilung war das angegebene Interesse in der Umfrage, sodass möglichst viele Interessierte, die räumlich nah beieinander sind, in einem Gebiet liegen.
 Das aktuelle geplante Gebiet umfasst die Bereiche A1 und A2.
 
-Die weiteren Gebiete in Palingen werden abhängig von dem Interesse in den nächsten Monaten geplant. Es ist aber zu erwarten das die zu erwartenden Kosten sich auch für die Haushalte in den anderen Gebieten übertragen lassen.
+Die weiteren Gebiete in Palingen werden abhängig von dem Interesse in den nächsten Monaten geplant. Es ist aber zu erwarten, dass die zu erwartenden Kosten sich auch für die Haushalte in den anderen Gebieten übertragen lassen.
 
 **Übersicht über das Gebiet**  
 
-Leitungslänge: 1000m
-Wärmebedarf: 550 MWh
+Leitungslänge: 1000m  
+Wärmebedarf: 550 MWh  
 Hausanschlüsse: 26
 
-## Geplante Heizanlage 
+### Geplante Heizanlage 
 
 **Zentrales Heizhaus**
 
-![image](/assets/images/Heizhaus01.png)
-*Bild zeigt Hachschnitzellager und einen Hackschnitzelkessel*
+![image](/assets/images/Heizhaus01.png)  
+*Bild zeigt Hackschnitzellager und einen Hackschnitzelkessel*
 
-* Hackschnitzel Kessel
-* Hackschnitzel Lager
+* Hackschnitzelkessel
+* Hackschnitzellager
 * Automatische Brennstoffzufuhr
 
 **Netz**
@@ -49,27 +48,27 @@ Hausanschlüsse: 26
 
 **Hausstationen**
 
-![image](/assets/images/UebergabeStation.jpg)
+![image](/assets/images/UebergabeStation.jpg)  
 *Bild zeigt einen größeren Hausanschluss mit 3 Heizkreisen*
 
-* Übergabe mit Pumpe und Wärmemengen Zähler
+* Übergabe mit Pumpe und Wärmemengenzähler
 * Trinkwasserspeicher
 * Beliebige zusätzliche Heizanlagen 
 * Erneuerbare Quellen können bei Überschuss gegen Vergütung einspeisen
-* Vorlauftemperatur von >70 grad möglich
+* Vorlauftemperatur von >70 Grad möglich
 
-### Solarthermie, PV und Wärmepumpen 
+#### Solarthermie, PV und Wärmepumpen 
 
 Sind in der aktuellen Planung noch nicht enthalten, da für die Abschätzung eine detaillierte Hausplanung erforderlich ist.
-Wir planen diese Energiequellen ökonomisch sinnvoll mit einzubinden. Daher werden die Kosten sich durch die Anlagen nicht erhöhen, vorraussichtlich sogar minimal verringern. 
-Aus den recherchen zu anderen Wärmenetzen wissen wir, das üblicherweise 10-20% des Bedarfs durch Solarthermie, PV und Wärmepumpen gedeckt werden. Dies entspricht in etwa dem Warmwasserbedarf im Sommer. 
-Wir gehen davon aus, das auch in unserer Feinplanung diese Werte erreicht werden können.
+Wir planen, diese Energiequellen ökonomisch sinnvoll mit einzubinden. Daher werden die Kosten sich durch die Anlagen nicht erhöhen, voraussichtlich sogar minimal verringern. 
+Aus den Recherchen zu anderen Wärmenetzen wissen wir, dass üblicherweise 10-20% des Bedarfs durch Solarthermie, PV und Wärmepumpen gedeckt werden. Dies entspricht in etwa dem Warmwasserbedarf im Sommer. 
+Wir gehen davon aus, dass auch in unserer Feinplanung diese Werte erreicht werden können.
 
-## Geimeinschaftlich - Genossenschaftlich
+### Gemeinschaftlich - Genossenschaftlich
 
-Ein Wärmenetz im ländlichen Raum lässt sich nur gemeinschaftlich, und gemeinwohl orientiert Betreiben.
-Deswegen haben wir uns als Ergebniss für eine Genossenschaft entschieden.
-Dabei ist jeder Anschlussnehmer ist dabei Teil der Genossenschaft.
+Ein Wärmenetz im ländlichen Raum lässt sich nur gemeinschaftlich und gemeinwohlorientiert betreiben.
+Deswegen haben wir uns als Ergebnis für eine Genossenschaft entschieden.
+Dabei ist jeder Anschlussnehmer Teil der Genossenschaft.
 
 Die wichtigsten Merkmale einer Genossenschaft für uns sind:
 
@@ -77,12 +76,11 @@ Die wichtigsten Merkmale einer Genossenschaft für uns sind:
 * Gemeinschaftlicher, demokratischer Betrieb
 * Unterlageneinsicht für alle Anschlussnehmer
 * Alle Anschlussnehmer sind stimmberechtigt
-* Stimmwertung unabhängig vom eingesetzen Kapital
+* Stimmwertung unabhängig vom eingesetzten Kapital
 * Gewinne werden wieder auf die Gemeinschaft verteilt
-* Alltäglicher Betrieb durch beauftrage Unternehmen oder Einzelpersonen
+* Alltäglicher Betrieb durch beauftragte Unternehmen oder Einzelpersonen
 
-
-## Kosten
+### Kosten
 
 Bei allen im Folgenden genannten Kosten ist bereits eine Förderrate von 30% abgezogen.
 Bei den Kosten handelt es sich also um den tatsächlichen Finanzierungsbedarf.
@@ -95,14 +93,14 @@ Die Finanzierung erfolgt durch die Genossenschaft.
 Die jährlichen Betriebskosten betragen: 
 **30.000€ - 40.000€**
 
-### Kosten je Haushalt
+#### Kosten je Haushalt
 
 ##### Beispielrechnung
 ![image](/assets/images/BeispielHaushalte.png)
 
 *Bei: 0,09€ / kWh und 40 € Grundpreis je 10.000 kWh*
 
-Zu beachten ist, das im Wärmenetz nur der tatsächliche Wärmeverbrauch abgerechnet wird - alle Kessel und Netzverluste sind bereits in dem Arbeitspreis enthalten. Daher kann zum Vergleich vom aktuellen Energieverbrauch zwischen 10 % ( bei modernen Gaskesseln ) und 30 % ( bei älteren Kesseln oder Ölheizungen ) abgezogen werden.
+Zu beachten ist, dass im Wärmenetz nur der tatsächliche Wärmeverbrauch abgerechnet wird - alle Kessel- und Netzverluste sind bereits in dem Arbeitspreis enthalten. Daher kann zum Vergleich vom aktuellen Energieverbrauch zwischen 10% (bei modernen Gaskesseln) und 30% (bei älteren Kesseln oder Ölheizungen) abgezogen werden.
 
 Die Kosten für Anschlussnehmer teilen sich in 2 Bereiche auf: 
 
@@ -111,37 +109,36 @@ Die Kosten für Anschlussnehmer teilen sich in 2 Bereiche auf:
 Einmalig werden je Hausanschluss Kosten für die Erstellung des Anschlusses anfallen.
 Die Kosten richten sich nach der Anzahl der Heizkreise.
 Sie betragen: 5.000 € - 10.000 € für den ersten Heizkreis. 
-Weitere Heizkreise werden in der Hausdetailplanung berechnet, die Kosten werden ca 2000€ - 4000€ pro Heizkreis betragen.
+Weitere Heizkreise werden in der Hausdetailplanung berechnet, die Kosten werden ca. 2000€ - 4000€ pro Heizkreis betragen.
 
-**Monatliche Grundpreis**
+**Monatlicher Grundpreis**  
 Hiermit wird die Infrastruktur des Wärmenetzes finanziert.
-Die Grundkosten richten sich nach der Anschlussgröße des Hausanschlusses. Diese wird beim Bau des Anschlusses festgelegt, und verändert sich danach nicht mehr.
-Da die entgültigen Anschlussgrößen noch nicht feststehen kann als aktuelle Vergleichsgröße der jährliche Energiebedarf genommen werden.
+Die Grundkosten richten sich nach der Anschlussgröße des Hausanschlusses. Diese wird beim Bau des Anschlusses festgelegt und verändert sich danach nicht mehr.
+Da die endgültigen Anschlussgrößen noch nicht feststehen, kann als aktuelle Vergleichsgröße der jährliche Energiebedarf genommen werden.
 
 Grundkosten: 30€ - 55€ / 10.000 kWh pro Jahr
 
 **Wärmekosten**
 
 Hiermit wird der tatsächliche Verbrauch sowie die Betriebskosten des Wärmenetzes finanziert.
-Die Kosten werden nach tatsächlichen Verbrauch berechnet, und mit einem Wärmemengenzähler in der Übergabe Station ermittelt.
+Die Kosten werden nach tatsächlichem Verbrauch berechnet und mit einem Wärmemengenzähler in der Übergabestation ermittelt.
 
 Arbeitspreis: 0,08 - 0,10€ / kWh
 
-
-## Grundlage der Kostenabschätzung
+### Grundlage der Kostenabschätzung
 
 Grundlage für alle berechneten Daten sind die Ergebnisse der Umfrage.
-Um die Kosten abschätzen zu können haben wir zuerst über 20 existierende Wärmenetze recherchiert. ( [Auswahl der Recherche](/pages/heatingNetworks) )
+Um die Kosten abschätzen zu können, haben wir zuerst über 20 existierende Wärmenetze recherchiert. ( [Auswahl der Recherche](/pages/heatingNetworks) )
 Danach haben wir uns mit 2 dieser Wärmenetze intensiv ausgetauscht. 
 
 ![image](/assets/images/AustauschNetze.png)
 
 **[BobenOp Nahwärme Genossenschaft](https://www.bobenop.de/nahwaerme/)**
 
-Hierbei handelt es sich um eine erfahrene Genossenschaft in der Nähe von Flensburg. Die 2015 ihr Netz mit sehr wenigen Anschlussnehmern erfolgreich in Betrieb genommen hat, und bis heute auf über 200 Anschlussnehmer angewachsen ist.
+Hierbei handelt es sich um eine erfahrene Genossenschaft in der Nähe von Flensburg, die 2015 ihr Netz mit sehr wenigen Anschlussnehmern erfolgreich in Betrieb genommen hat und bis heute auf über 200 Anschlussnehmer angewachsen ist.
 
-**[Bioenergiedorf Oberhaun](https://www.bioenergiedorf-oberhaun.de/)**
-Eine junge Energiegenossenschaft in Mitteldeutschland, die 2023 ihre Planungabgeschlossen hat, und ende 2024 die Förderzusagen erhalten hat. Von Oberhaun haben wir sehr detaillierte und aktuelle Kosteninformation erhalten.
+**[Bioenergiedorf Oberhaun](https://www.bioenergiedorf-oberhaun.de/)**  
+Eine junge Energiegenossenschaft in Mitteldeutschland, die 2023 ihre Planung abgeschlossen hat und Ende 2024 die Förderzusagen erhalten hat. Von Oberhaun haben wir sehr detaillierte und aktuelle Kosteninformationen erhalten.
 
 **Eigene Detailplanung**
 
@@ -151,15 +148,12 @@ Auf Basis dieser Erfahrungswerte haben wir uns in die Wärmenetzplanungssoftware
 
 ![image](/assets/images/Fachfirmen.png)
 
-Im letzten Schritte haben wir Angebote von 2 Fachfirmen erhalten. Einmal von [Christian Böge](https://www.bio-energie-systeme.de/) , der bereits das Gebäudenetz auf dem Beckerhof errichtet hat, und Tiefbauunternehmen [Clement](https://www.clement-tiefbau.de/) aus Lübeck.
+Im letzten Schritt haben wir Angebote von 2 Fachfirmen erhalten. Einmal von [Christian Böge](https://www.bio-energie-systeme.de/), der bereits das Gebäudenetz auf dem Beckerhof errichtet hat, und vom Tiefbauunternehmen [Clement](https://www.clement-tiefbau.de/) aus Lübeck.
 
-## Nächste Schritte
+### Nächste Schritte
 
-Für die weiteren Schritte ist eine exakte Erfassung des Anschlussinteresses notwendig. Damit die interessierten Haushalte dann mit einer genauen Wärmelastberechnung aufgenommen werden können. Diese Detailplanung wird vom Verein organisiert. 
-Die Kosten für die Detailplanung belaufen sich auf ca. 10.000€. Der Verein arbeitet aktive an der Beschaffung von Fördermitteln.
-Die übrigen Kosten werden durch die Anschlussinteressen finanziert.
+Für die weiteren Schritte ist eine exakte Erfassung des Anschlussinteresses notwendig, damit die interessierten Haushalte dann mit einer genauen Wärmelastberechnung aufgenommen werden können. Diese Detailplanung wird vom Verein organisiert. 
+Die Kosten für die Detailplanung belaufen sich auf ca. 10.000€. Der Verein arbeitet aktiv an der Beschaffung von Fördermitteln.
+Die übrigen Kosten werden durch die Anschlussinteressenten finanziert.
 
 Das genaue Anschlussinteresse wird bis Ende Februar über den [Vorvertrag zur Planung](/assets/images/Vorvertrag_Planung_Waermenetz.pdf) erfasst.
-
-
-
