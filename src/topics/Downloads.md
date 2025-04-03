@@ -11,7 +11,8 @@ title: Downloads
 
 ## Wärmenetz
 
-- [Vorvertrag Wärmenetz Planung](/assets/downloads/Vorvertrag_Planung_Waermenetz.pdf)
+- [Vorvertrag Wärmenetz Planung ( NEU - kaltes Netz)](/assets/downloads/Vorvertrag_Planung_Waermenetz_V2.pdf)
+- [Vorvertrag Wärmenetz Planung (ALT)](/assets/downloads/Vorvertrag_Planung_Waermenetz.pdf)
 
 ## Strompool 
 
