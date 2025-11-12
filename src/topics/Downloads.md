@@ -13,7 +13,8 @@ title: Downloads
 
 - [Vorvertrag Wärmenetz Planung ( NEU - kaltes Netz)](/assets/downloads/Vorvertrag_Planung_Waermenetz_V2.pdf)
 - [Vorvertrag Wärmenetz Planung (ALT)](/assets/downloads/Vorvertrag_Planung_Waermenetz.pdf)
-- [Zusammenfassung Vorstudie](/assets/downloads/Zusammenfassung_Vorstudie.pdf)
+- [Zusammenfassung Vorstudie](/assets/downloads/Zusammenfassung_Vorstudie.pdf) (Passwortgeschützt)
+- [Folien - Vorstudie kaltes Netz](/assets/downloads/Palingen_Kaltes_Nahwaermenetz.pdf) (Passwortgeschützt)
 
 ## Strompool 
 
