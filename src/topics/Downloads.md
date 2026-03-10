@@ -15,6 +15,7 @@ title: Downloads
 - [Vorvertrag Wärmenetz Planung (ALT)](/assets/downloads/Vorvertrag_Planung_Waermenetz.pdf)
 - [Zusammenfassung Vorstudie](/assets/downloads/Zusammenfassung_Vorstudie.pdf) (Passwortgeschützt)
 - [Folien - Vorstudie kaltes Netz](/assets/downloads/Palingen_Kaltes_Nahwaermenetz.pdf) (Passwortgeschützt)
+- [Vorstudie kaltes Nahwärmenetz - anonymisiert](/assets/downloads/Endbericht_Wärmenetz_Palingen.pdf)
 
 ## Strompool 
 
