@@ -50,4 +50,4 @@ Zum Beispiel werden in diesem Schritt die genauen Hersteller und Geräte festgel
 Gleichzeitig werden auf Basis der ermittelten Zahlen die formellen Schritte zur Genossenschaftsgründung sowie die Ausarbeitung des Businessplans weiter vorbereitet. 
 
 ----
-![landessigne-mcklenburg-vorpommern](/assets/images/Landessignet.png) *Die Vorstudie wurde Kofinanziert vom Land Mecklenburg Vorpommern!*
+![landessigne-mecklenburg-vorpommern](/assets/images/Landessignet.png) *Die Vorstudie wurde Kofinanziert vom Land Mecklenburg Vorpommern!*
