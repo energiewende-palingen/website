@@ -1,2 +1,8 @@
 node_modules
 _site
+.ai-planning/comments/
+.ai-planning/reviews/
+.claude/skills/ai-ide-comments/
+.claude/skills/ai-review-comments/
+.claude/skills/explain-branch/
+src/assets/.DS_Store

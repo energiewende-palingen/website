@@ -5,7 +5,7 @@ title: Impressum
 
 ## Impressum
 ### Anbieter:
-Initiative Energie gewinnen in Palingen  
+energiepalingen e.V.
 Friedrich Wessel  
 Hauptstr. 28a  
 23923 Palingen  
